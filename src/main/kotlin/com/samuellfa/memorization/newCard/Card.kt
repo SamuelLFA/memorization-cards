@@ -13,6 +13,6 @@ data class Card (
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long?,
-    val originalText: String,
-    val translatedText: String
+    val front: String,
+    val back: String
 )

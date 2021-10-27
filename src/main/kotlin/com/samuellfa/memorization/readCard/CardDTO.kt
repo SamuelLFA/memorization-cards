@@ -1,6 +1,7 @@
-package com.samuellfa.memorization.newCard
+package com.samuellfa.memorization.readCard
 
 import com.fasterxml.jackson.annotation.JsonProperty
+import com.samuellfa.memorization.newCard.Card
 
 data class CardDTO (
 
